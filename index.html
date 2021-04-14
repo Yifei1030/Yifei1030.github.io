@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-   <meta charset="utf-8">
-   <title>My Webe Page</title>
+  <meta charset="utf-8">
+  <title>逻辑小游戏</title>
+  <script src="script.js">
+  </script>
+  <style>
+  body{
+    padding-left: 10em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+   color: purple;
+   line-height:30px;
+   font-size:20px;
+   background-color: azure }
+   h1{padding-left: 11em;
+     color:black;
+     font-size:30px}
+   h2{line-height:35px;
+   font-size:23px}
+   h3{color:red;
+   font-size:17px}
+   span1{padding-left: 11em}
+   span2{padding-left: 11em}
+   span3{padding-left: 11em}
+   button{margin-left: 5em;
+     margin-right: 5em;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     padding-left: 1em;
+   padding-right: 1em;
+ font-size:20px}
+
+
+   </style>
 </head>
-<body style="background-color:lavender;">
-  <h1 style="background-color:lightblue; ">My First Website</h1>
-   <h2 style="border-style:solid; border-width:1px;">I  hope you like it here.</h2>
-    <h3>I  hope you like it here.</h3>
-     <h4>I  hope you like it here.</h4>
-      <h5>I  hope you like it here.</h5>
-       <h6>I  hope you like it here.</h6>
-        <p style="color:red;">This is my paragraph.</p><br>
-        <p>This is another paragraph.</p>
-         <b>Bold text</b>
-         <i>Inalic text</i>
-         <em>Emphasized  text</em>
-         <sub>Subscript text</sub>
-         <sup>Superscript text</sup>
-         <img src="http://www.cuc.edu.cn/_upload/site/00/05/5/logo.png">
-         <a href="http://www.cuc.edu.cn/"target="_blank">This is the link to CUC's Website.</a>
-         <img src="campus.jpeg">
-</body>
-</html>
+<body>
+  <h1>小小逻辑题，看看你的脑袋好使不</h1>
+  <h2>小丽、小玲、小娟三个人一起去商场里买东西。她们都买了帽子、发夹、裙子、手套等等，每个人买的东西都不同。
+    <br>请根据每个人说的话得出最终答案。</h2>
+  <h3>注意：每个人都说了一半真话，一半假话！</h3>
+  <span1>小丽说：“</span1>
+  <span id="tip1">小玲买的不是手套</span>
+  <span>,小娟买的不是发夹。”</span><br>
+  <span2>小玲说：“小丽买的不是手套，</span2>
+  <span id="tip2">小娟买的是发夹。”</span><br>
+  <span3>小娟说：“</span3>
+  <span id=tip3>三个人买的东西都不一样</span>
+  <span>，小丽买的是裙子。”</span><br>
+  <button onclick="inputAnswer()">点击输入答案</button>
+  <button onclick="showTip1()">提示1</button>
+  <button onclick="showTip2()">提示2</button>
+  </html>
