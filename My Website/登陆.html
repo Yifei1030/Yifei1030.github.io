@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录-原创音乐平台,网络原创歌曲合作,原创歌曲注册,原创音乐交易,原创音乐推广,原创音乐网站</title>
+    <meta name="keywords" content="网络原创歌曲合作,原创歌曲注册,原创音乐交易,原创音乐推广,原创音乐网站,悦让音乐官网">
+    <meta name="description" itemprop="description" content="悦让音乐是一个面向原创音乐爱好者的专业音乐平台。平台致力于帮助音乐爱好者创作更好的原创音乐作品">
+            <link rel="stylesheet" href="/assets/css/bootstrap.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/custom.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/mediaCss.css">
+        <link rel="stylesheet" href="/assets/fonts/icon.css">
+        <link rel="stylesheet" href="/assets/iconfont/iconfont.css">
+            <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/validate.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="logo">
+                <img src="/assets/images/logo.png" alt="">
+            </a>
+            <ul class="nav navbar-nav float-left">
+                <li class=""><a href="/">首页</a></li>
+                <li class=""><a href="/profile">我的音乐</a></li>
+                <li class=""><a href="/musician">音乐人</a></li>
+                <li class=""><a href="/download">客户端</a></li>
+            </ul>
+            <form action="/search" method="get">
+                <div class="search-input">
+                    <span class="iconfont icon-search"></span>
+                    <input type="search" class="form-control" id="search" name="q" placeholder="单曲、乐队、音乐人">
+                </div>
+            </form>
+            <div class="login-group">
+                                    <div class="log-in">
+                        <a href="/account/login">登录</a>
+                        <span>|</span>
+                        <a href="/account/register">注册</a>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+    <div class="top-content">
+        <div class="inner-bg">
+            <div class="" style="width: 500px; margin: auto; margin-top: 20px;">
+                <div class="text">
+                    <h1>登录悦让</h1>
+                </div>
+                <div class="form-box">
+                    <div class="form-top">
+                        <div class="form-top-left">
+                            <h3 id="form_title">用户登录</h3>
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+                        <form role="form" action="" method="post" id="login-form" class="login-form login">
+                            <div class="form-group">
+                                <label class="sr-only" for="username">账号</label>
+                                <input type="text" name="username" placeholder="请输入手机号" class="form-username form-control" data-required="true" data-descriptions="username" id="form-username">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="password">密码</label>
+                                <input type="password" name="password" placeholder="密码" class="form-password form-control" data-required="true" data-descriptions="password" id="form-password">
+                            </div>
+                            <div class="form-group">
+                                <label href="" class="remember"><input type="checkbox" name="is_remember" value="1" checked="checked">记住用户名</label>
+                                <a class="forget-link" href="/account/reset">忘记密码？</a>
+                            </div>
+                            <button type="submit" class="btn btn-yellow btn-lg" id="login-button">登录</button>
+                            <p class="link">还没有账号？去<a href="/account/register">注册</a></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="social-login">
+                    <h3>合作账号登录</h3>
+                    <div class="social-login-buttons">
+                        <a class="btn-link-2" href="https://open.weixin.qq.com/connect/qrconnect?appid=wxe3c224df82f50433&redirect_uri=http%3A%2F%2Fwww.yuerock.com%2Faccount%2Fwechat&response_type=code&scope=snsapi_login&state=31430#wechat_redirect">
+                            <i class="weixin"></i> 微信
+                        </a>
+                        <a class="btn-link-2" href="http://yuerock.com/qqconnection/index.php">
+                            <i class="qq"></i> QQ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="footer black-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="/assets/images/logo-footer.png" class="logo">
+            </div>
+            <div class="col-xs-8">
+                <ul class="nav navbar-nav">
+                    <li><a href="/aboutUs">关于悦让</a></li>
+                    <li><a href="/service">服务条款</a></li>
+                    <li><a href="/agreement">用户服务协议</a></li>
+                    <li><a href="">加入我们</a></li>
+                </ul>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label class="title">下载悦让音乐客户端</label>
+                        <a target="_blank" href="https://itunes.apple.com/cn/app/%E6%82%A6%E8%AE%A9%E9%9F%B3%E4%B9%90/id1364261144?mt=8" class="down-link"><i class="iconfont icon-apple"></i>IOS版下载</a>
+                        <a href="http://www.yuerock.com/upload/yuerock_1.0.5_7.apk" target="_blank" class="down-link"><i class="iconfont icon-android"></i>Andriod版下载</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <label class="title">关注微信公众号</label>
+                        <img src="/assets/images/img-code.jpg" class="code">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2018 YueRock All Rights Server 悦让音乐网 版权所有</p>
+            <a style="display: inline-block;    color: #666;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13010802001132" target="_blank"><img  style="height: 20px;display: inline-block; width: 20px;" class="ptc-live-foot-img" src="http://r.plures.net/pts/jsbin/footer-gawb.png"> 冀公安网备13010802001132号</a>
+            <span  style="display: inline-block;" class="ptc-footer-split">|</span>
+            <a style="display: inline-block;    color: #666;" href="https://beian.miit.gov.cn/" target="_blank"> 冀ICP备16014937号-1</a>
+            <span style="display: inline-block;" class="ptc-footer-split">|</span>
+            <a style="display: inline-block;    color: #666;" href="https://zwfw.mct.gov.cn/whscjydw" target="_blank"><img style="height: 20px;display: inline-block; width: 20px;" class="ptc-live-foot-img" src="http://r.plures.net/pts/jsbin/footer-sww.png">冀网文（2018）3406-18号</a>
+        </div>
+    </div>
+</div>
+<!--<div id="skPlayer"></div>-->
+    <script src="/assets/js/jquery-1.11.3.min.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
+        <script src="/assets/js/app.js?23"></script>
+    <script src="/assets/js/jquery-mvalidate.js"></script>
+    <script src="/assets/js/jquery.backstretch.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#login-form").mvalidate({
+                type:1,
+                onKeyup:true,
+                sendForm:true,
+                firstInvalidFocus:false,
+                valid:function(event,options){
+                    $.post('/account/login', $('#login-form').serialize(), function(result){
+                        if(result.status == true){
+                            show_message('登录成功','/profile/index');
+                        }else{
+                            show_message(result.message);
+                        }
+                    });
+                    event.preventDefault();
+                },
+                eachValidField:function(val){},
+                eachInvalidField:function(event, status, options){},
+                descriptions:{
+                    username:{
+                        required : '请输入用户名'
+                    },
+                    password:{
+                        required : '请输入密码'
+                    },
+                }
+            });
+        });
+    </script>
+</body>
+</html>

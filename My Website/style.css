@@ -1,0 +1,96 @@
+
+
+@font-face {
+  font-family:"mingchao" ;
+  src: url('family/FZFWZhuZGDSMCJW.TTf');
+  font-size: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family:"ninan" ;
+  src: url('family/FZNiNSJW.TTf');
+  font-size: normal;
+  font-weight:lighter;
+}
+
+.font1{
+  font-family: "mingchao";
+  font-size: 30px;
+}
+.font2{
+  font-family: "ninan";
+  font-size: 20px;
+}
+
+.card-title{
+  color:	#6495ED;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-text{
+  color:#222222;
+  font-size: 20px;
+}
+
+.carousel img{
+  width: 100%;
+  height: 100%;
+}
+
+.btn-primary{
+  background-color:	#6495ED;
+  border:1px solid #6495ED;
+}
+
+.fun{
+  width:100%;
+  margin-bottom:2rem;
+  height:55px;
+  font-size: 20px;
+  font-family: display-4;
+  font-style: italic;
+  font-weight: lighter;
+  background-color:	#D3D3D3;
+}
+
+.connect{
+  padding-top: 30px;
+}
+
+.social img{
+  height: 5.5rem;
+  padding:1.6rem;
+}
+
+figure{
+  position: relative;
+  width:100%;
+  height:60%;
+  margin:0;
+}
+
+#fixed {
+background-image: url('图片/背景.png');
+height: 600px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+.cards{
+  width: 80%
+  margin: 20px
+  padding: 80px 0;
+}
+
+footer{
+  background-color: #D3D3D3;
+  padding-top:1rem;
+}
+
+.light{
+  border-top:2px solid	#FFFFFF;
+  width:75%;
+}
