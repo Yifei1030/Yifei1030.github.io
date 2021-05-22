@@ -1,4 +1,6 @@
-
+.html body{
+  background-color: 	#DCDCDC;
+}
 
 @font-face {
   font-family:"mingchao" ;
@@ -22,6 +24,16 @@
   font-size: 20px;
 }
 
+.title{
+  color:#6495ED;
+  font-size: 50px;
+}
+
+.lead{
+  color:#696969;
+  font-size: 20px;
+}
+
 .card-title{
   color:	#6495ED;
   font-size: 25px;
@@ -31,6 +43,30 @@
 .card-text{
   color:#222222;
   font-size: 20px;
+}
+
+.paragraph1{
+  background-color:	#F0F8FF;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 40px;
+    padding-top: 20px;
+}
+
+.paragraph2{
+  background-color:	#F0F8FF;
+    margin-right: 70px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+
+.row h5{
+  color:#6495ED;
+  padding:30px;
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .carousel img{
@@ -93,4 +129,11 @@ footer{
 .light{
   border-top:2px solid	#FFFFFF;
   width:75%;
+}
+
+.section-2{
+  padding-left :100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 70px;
 }
